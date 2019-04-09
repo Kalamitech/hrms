@@ -5348,6 +5348,7 @@ Input Icon
 /* Input Icon left */
 
 .has-icon-left .form-control {
+  border-radius: 30px;
   padding-right: 1rem;
   padding-left: -webkit-calc(1.25em + 1.5rem + 2px);
   padding-left: -moz-calc(1.25em + 1.5rem + 2px);

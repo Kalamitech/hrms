@@ -36,4 +36,25 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function isAdmin(){
+        if ($this->access_level == 1) {
+            return true;
+        }
+        return false;
+    }
+
+    public function isManager(){
+        if ($this->access_level == 2 OR $this->access_level == 3) {
+            return true;
+        }
+        return false;
+    }
+
+    public function isGEmployee(){
+        if ($this->access_level == 4) {
+            return true;
+        }
+        return false;
+    }
 }

@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
         <meta name="description" content="KHRMS is super flexible, powerful, clean &amp; modern web application for human resource management.">
-        <meta name="keywords" content="human resource management, payroll, loans">
+        <meta name="keywords" content="human resource management, payroll, loans, kalami">
         <meta name="author" content="Kalami Tech">
         <title>KHRMS - @yield('page-title')</title>
         <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
