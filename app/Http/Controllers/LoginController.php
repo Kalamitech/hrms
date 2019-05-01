@@ -67,7 +67,7 @@ class LoginController extends Controller
                 return redirect()->route('home');
             }
         }else{
-            //Log activity
+            //Log activity - Unsuccessful login attempt
             activity()
             ->tap(function(Activity $activity) {
                 $activity->subject_type = 'System';
@@ -77,7 +77,7 @@ class LoginController extends Controller
             ->log($request->email. ' login attempt failed');
 
             //return back with error message if login is unsuccessful
-            return redirect()->back();
+            return redirect()->back()->with('error', 'Invalid login credentials entered.');
         }
     }
 

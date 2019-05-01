@@ -35,7 +35,10 @@
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-  top: inherit; }
+  top: inherit;
+  border-radius: 30px; 
+
+}
   .vertical-content-menu.menu-expanded .main-menu .navigation .navigation-header .la-ellipsis-h,
   .vertical-content-menu.menu-expanded .main-menu .navigation .navigation-header .nav-menu-icon {
     display: none; }

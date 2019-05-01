@@ -36,6 +36,7 @@ class CheckAdmin
         ->log($user->email. ' attempted to access a restricted route as a System Administrator');
 
         //return to login page if user doesn't have access
+        //change this to non authorized access page
         return redirect()->route('loginIndex');
         
     }

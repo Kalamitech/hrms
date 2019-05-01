@@ -302,15 +302,6 @@ footer .ft-heart:before {
 }
 
 
-/*=========================================================================================
-File Name: navigations.scss
-Description: Common mixin for menus, contain dark and light version scss.
-----------------------------------------------------------------------------------------
-Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
- Version: 3.0
-Author: PIXINVENT
-Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
 
 .main-menu {
   z-index: 1000;
@@ -603,10 +594,12 @@ Author URL: http://www.themeforest.net/user/pixinvent
 
 .main-menu.menu-dark .main-menu-header .menu-search:focus {
   border-color: #0b0c0f;
+  border-radius: 30px;
 }
 
 .main-menu.menu-dark .navigation {
   background: #2C303B;
+  border-radius: 30px;
 }
 
 .main-menu.menu-dark .navigation .navigation-header {

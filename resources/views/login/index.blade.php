@@ -62,6 +62,14 @@
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body" style="padding-top: 0px;">
+                                        @if(\Session::has('error'))
+                                            <div class="alert alert-danger alert-dismissible mb-2" role="alert">
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                                <strong>Oops!</strong> {{\Session::get('error')}}
+                                            </div>
+                                        @endif
                                         <form class="form-horizontal" method="POST" action="{{ route('loginHandler') }}">
                                             @csrf
                                             <fieldset class="form-group position-relative has-icon-left">
