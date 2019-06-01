@@ -57,4 +57,9 @@ class User extends Authenticatable
         }
         return false;
     }
+
+    public function accessLevel()
+    {
+        return $this->belongsTo('App\AccessLevel', 'access_level', 'id');
+    }
 }

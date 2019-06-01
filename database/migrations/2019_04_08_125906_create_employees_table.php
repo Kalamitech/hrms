@@ -23,9 +23,8 @@ class CreateEmployeesTable extends Migration
             $table->date('date_of_birth');
             $table->date('date_of_joining');
             $table->string('number');
-            $table->string('qualification');
             $table->string('emergency_number');
-            $table->string('tin_number');
+            $table->string('tin');
             $table->string('father_name');
             $table->string('current_address');
             $table->string('permanent_address');
@@ -33,7 +32,8 @@ class CreateEmployeesTable extends Migration
             $table->tinyInteger('offer_acceptance');
             $table->string('probation_period');
             $table->date('date_of_confirmation');
-            $table->string('department');
+            $table->string('department_id');
+            $table->string('role_id');
             $table->string('salary');
             $table->string('account_number');
             $table->string('bank_name');

@@ -63,11 +63,19 @@
                                 <div class="card-content">
                                     <div class="card-body" style="padding-top: 0px;">
                                         @if(\Session::has('error'))
-                                            <div class="alert alert-danger alert-dismissible mb-2" role="alert">
+                                            <div class="alert round bg-danger alert-dismissible mb-2" style="text-align: center;" role="alert">
                                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                                     <span aria-hidden="true">×</span>
                                                 </button>
-                                                <strong>Oops!</strong> {{\Session::get('error')}}
+                                                {{\Session::get('error')}}
+                                            </div>
+                                        @endif
+                                        @if (session('message'))
+                                            <div class="alert alert-success alert-dismissible mb-2" role="alert">
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                                {{ session('message') }}
                                             </div>
                                         @endif
                                         <form class="form-horizontal" method="POST" action="{{ route('loginHandler') }}">

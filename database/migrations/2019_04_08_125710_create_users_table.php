@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->integer('access_level')->references('id')->on('access_levels');
             $table->rememberToken();
+            $table->integer('status')->default('0');
             $table->timestamps();
         });
     }

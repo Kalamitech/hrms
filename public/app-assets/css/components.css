@@ -647,7 +647,7 @@ footer .ft-heart:before {
 }
 
 .main-menu.menu-dark .navigation > li > a {
-  padding: 12px 36px 12px 18px;
+  padding: 5px 36px 12px 18px;
 }
 
 .main-menu.menu-dark .navigation > li > a .label {
@@ -733,7 +733,7 @@ footer .ft-heart:before {
 .main-menu.menu-dark .navigation > li ul {
   padding: 0;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .main-menu.menu-dark .navigation > li ul li {
@@ -742,7 +742,7 @@ footer .ft-heart:before {
 }
 
 .main-menu.menu-dark .navigation > li ul li > a {
-  padding: 8px 18px 8px 54px;
+  padding: 7px 18px 7px 54px;
 }
 
 .main-menu.menu-dark .navigation > li ul .has-sub:not(.open) > ul {
@@ -906,7 +906,7 @@ footer .ft-heart:before {
 }
 
 .navigation {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   letter-spacing: 0.2px;
   font-family: "Quicksand", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
@@ -5527,8 +5527,8 @@ input[type="month"].form-control {
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
   padding: 2px 6px !important;
   margin-top: 0px !important;
-  background-color: #666ee8 !important;
-  border-color: #3a44e1 !important;
+  background-color: #0f527c !important;
+  border-color: #0f527c !important;
   color: #fff;
   margin-right: 8px !important;
   margin-bottom: 2px;
@@ -5568,7 +5568,7 @@ input[type="month"].form-control {
 
 .select2-container--classic .select2-results__options .select2-results__option[aria-selected=true],
 .select2-container--default .select2-results__options .select2-results__option[aria-selected=true] {
-  background-color: #666ee8 !important;
+  background-color: #0f527c !important;
   color: #fff !important;
 }
 

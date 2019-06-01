@@ -17,7 +17,7 @@ class LoginController extends Controller
             'password' => $request->password,
         ])) {
             //select user details
-            $user = User::where('email', $request->email)->first();
+            $user = User::where(['email' => $request->email, 'status' => '0'])->first();
             
 
             //check if user is a system administrator

@@ -12,7 +12,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         \DB::table('users')->insert([
-            'name' => 'Application Manager',
+            'name' => 'Application Admin',
             'email' => 'dev@kalami.tech',
             'access_level' => '1',
             'password' => bcrypt('123456'),

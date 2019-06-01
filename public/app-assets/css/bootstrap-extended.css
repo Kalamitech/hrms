@@ -85,7 +85,7 @@ a:focus {
 ol li,
 ul li,
 dl li {
-  line-height: 1.8;
+  /* line-height: 1.8; */
 }
 
 code {
@@ -261,7 +261,7 @@ pre code {
 
 .table th,
 .table td {
-  padding: 0.75rem 2rem;
+  padding: 7px 10px 5px 10px;
 }
 
 .table.table-xl th,
@@ -383,9 +383,7 @@ form .form-section i {
 }
 
 form .form-actions {
-  border-top: 1px solid #d1d5ea;
   padding: 20px 0;
-  margin-top: 20px;
 }
 
 form .form-actions.filled {
@@ -3134,12 +3132,12 @@ body.vertical-layout.menu-open .main-menu .navigation .navigation-header .nav-me
 
 .nav.nav-tabs.nav-iconfall .nav-item a:hover,
 .nav.nav-tabs.nav-iconfall .nav-item a:focus {
-  color: #2CC185;
+  color: #0f527c;
   border: none;
 }
 
 .nav.nav-tabs.nav-iconfall .nav-item a.active {
-  color: #2CC185;
+  color: #0f527c;
   border: none;
   background-color: transparent;
 }
@@ -3170,7 +3168,7 @@ body.vertical-layout.menu-open .main-menu .navigation .navigation-header .nav-me
   margin-left: -20px;
   width: 40px;
   height: 4px;
-  background: #2CC185;
+  background: #0f527c;
   content: '';
   opacity: 0;
   -webkit-transition: -webkit-transform 0.2s ease-in;

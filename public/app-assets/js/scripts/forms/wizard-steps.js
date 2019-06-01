@@ -87,7 +87,7 @@ $(".steps-validation").steps({
         return form.valid();
     },
     onFinished: function (event, currentIndex) {
-        alert("Submitted!");
+        document.employeeForm.submit();
     }
 });
 

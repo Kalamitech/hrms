@@ -23,7 +23,7 @@ class CheckManager
         $user = Auth::user();
 
         //check access level
-        if ($user->access_level == 4) {
+        if ($user->access_level == 2  OR $user->access_level == 3) {
             return $next($request);
         }
 

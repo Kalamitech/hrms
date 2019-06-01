@@ -41,6 +41,21 @@ class Kernel extends HttpKernel
             'throttle:60,1',
             'bindings',
         ],
+
+        'acheck' => [
+            'auth' => \App\Http\Middleware\Authenticate::class,
+            'ACheck' => \App\Http\Middleware\checkAdmin::class,
+        ],
+
+        'mcheck' => [
+            'auth' => \App\Http\Middleware\Authenticate::class,
+            'MCheck' => \App\Http\Middleware\checkManager::class,
+        ],
+
+        'gecheck' => [
+            'auth' => \App\Http\Middleware\Authenticate::class,
+            'GECheck' => \App\Http\Middleware\checkGEmployee::class,
+        ],
     ];
 
     /**
